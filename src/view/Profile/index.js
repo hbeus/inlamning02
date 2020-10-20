@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-export const LoginView = () => {
+export const Profile = () => {
   return (
     <div className="profile-view__center-container">
       <div className="profile-view__container">
@@ -11,4 +11,4 @@ export const LoginView = () => {
   );
 };
 
-export default LoginView;
+export default Profile;
