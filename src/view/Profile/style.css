@@ -1,0 +1,37 @@
+.profile-view__center-container { 
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.profile-view__container {
+    background-color: #fff;
+    padding: 24px;
+    width:100%;
+    max-width: 560px;
+    border-radius: 6px;
+}
+
+.profile-view__container label {
+    padding-bottom: 6px;
+}
+.profile-view__container input {
+    display: block;
+    width: 100%;
+    border: 0px;
+    border-radius: 3px;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.profile-view__loginButton {
+    background: blue;
+    padding: 12px 30px;
+    border: 0px;
+    border-radius: 100px;
+    margin-top: 12px;
+    color: #fff;
+}
+
+
