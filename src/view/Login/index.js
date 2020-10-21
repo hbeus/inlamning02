@@ -1,17 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./style.css";
 
 export const Login = () => {
-  //const [ name, setName ] = useState("hampe");
-
-  // const myClickFunction = (event) => {
-  //   setName("max!")
-  //   console.log("hej");
-  // }
-
-  // const changeVal = (event) => {
-  //   console.log("change!",event)
-  // }
 
   const setUser = () => {
     let username = document.getElementById("username").value;
@@ -23,7 +13,6 @@ export const Login = () => {
   return (
     <div className="login-view__center-container">
       <div className="login-view__container">
-        {/* <h1>Hello {name}</h1> */}
         <h1>Enter your login credentials</h1>
         <form action="/profile">
           <label htmlFor="username">Username</label>
