@@ -9,7 +9,7 @@ const Routing = () => {
   return (
     <Router>
       <Login path="/" />
-      <Profile path="profile" />
+      <Profile path="/profile" />
     </Router>
   );
 };
