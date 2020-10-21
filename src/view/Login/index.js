@@ -1,13 +1,12 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
 export const Login = () => {
-
   const setUser = () => {
-    let username = document.getElementById("username").value;
-    let message = document.getElementById("message").value;
-    localStorage.setItem("username", username);
-    localStorage.setItem("message", message);
+    let username = document.getElementById('username').value;
+    let message = document.getElementById('message').value;
+    localStorage.setItem('username', username);
+    localStorage.setItem('message', message);
   };
 
   return (

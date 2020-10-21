@@ -1,9 +1,9 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
 export const Profile = () => {
-  const username = localStorage.getItem("username");
-  const message = localStorage.getItem("message");
+  const username = localStorage.getItem('username');
+  const message = localStorage.getItem('message');
 
   return (
     <div className="profile-view__center-container">
